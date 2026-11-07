@@ -59,7 +59,4 @@ Desktop.ini
 # TypeScript
 *.tsbuildinfo
 
-# Temporary files
-tmp/
-temp/
-*.tmp
+
