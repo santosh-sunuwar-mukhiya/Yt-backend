@@ -1,13 +1,21 @@
-import express from "express";
+import dotenv from "dotenv";
+import app from "./app.js";
 
-const app = express();
+dotenv.config();
 
-const PORT = 8000;
+import connectDB from "./db/index.js";
+const PORT = process.env.PORT || 3000;
 
-app.get("/", (req, res) => {
-  res.send("Hello world, YT clone.");
-});
+const startServer = async () => {
+  try {
+    await connectDB();
 
-app.listen(PORT, () => {
-  console.log(`The server is running on http://localhost:${PORT}`);
-});
+    app.listen(PORT, () => {
+      console.log(`The server is running on http://localhost:${PORT}`);
+    });
+  } catch (err) {
+    console.log(`Server Failed: ${err.message}`);
+  }
+};
+
+startServer();

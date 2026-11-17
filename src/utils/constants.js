@@ -1,1 +1,1 @@
-export default DB_NAME = "YouTube"
+export const DB_NAME = "YouTube"
