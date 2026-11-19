@@ -138,4 +138,33 @@ I will continuously update this section as I learn and implement new concepts.
 | Day 02 | To be updated | ⏳ Pending |
 | Day 03 | To be updated | ⏳ Pending |
 
-*This is
+*This is a living learning log, not a list of completed features.*
+
+## 🧠 What I Want to Achieve
+
+By the end of this learning journey, I want to be able to:
+
+- Build REST APIs independently.
+- Understand the request-response lifecycle.
+- Design and work with database schemas and relationships.
+- Implement secure authentication and authorization.
+- Write reusable middleware and utility functions.
+- Handle errors and asynchronous operations properly.
+- Understand how different backend components communicate.
+- Build and maintain a production-oriented backend application.
+
+## 📖 Learning Resource
+
+**Chai aur Code – YouTube Backend Development Series**
+
+[Visit Chai aur Code on YouTube](https://www.youtube.com/@chaiaurcode)
+
+## 🚀 Long-Term Goal
+
+My goal is to become a strong software engineer with solid backend engineering fundamentals.
+
+This project is one step toward developing the practical skills and problem-solving abilities required to build real-world software systems.
+
+---
+
+**Learning in public. One concept, one implementation, and one day at a time.**
